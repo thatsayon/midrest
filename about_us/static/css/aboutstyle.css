@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Merriweather:wght@700&display=swap');
+
+#headdiv {
+    background-image: url('../img/aboutbg.jpg');
+    background-color: #cccccc;
+    height: 70vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+}
+
+#headdiv h1 {
+    font-size: 8rem;
+    border-bottom: 1rem solid black;
+    border-color: #fff;
+}
+
+.about {
+    width: 80%;
+    margin: auto;
+    margin-top: 4rem;
+}
+
+.about p {
+    font-family: 'Merriweather', serif;
+    font-size: 24px;
+
+}

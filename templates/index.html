@@ -1,0 +1,67 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}Home{% endblock %}
+{% block link %}
+<link rel="stylesheet" href="{% static '/css/homestyle.css' %}">
+{% endblock %}
+{% block content %}
+<section class="headdiv">
+    <div>
+        <h2>Mid Resturant</h2>
+        <p>The best resturant on the town</p>
+        <button>Our Menu</button>
+    </div>
+</section>
+
+<section>
+    <div class="mt-5">
+        <div class="d-flex justify-content-between" id="infot">
+            <div>
+                <img src="{% static '/img/food1.jpeg' %}" alt="">
+            </div>
+            <div>
+                <h1>
+                    Exquisite Culinary Delights Await at Our Restaurant
+                </h1>
+                <p>
+                    Welcome to a gastronomic haven where every bite tells a story of passion and precision—our
+                    restaurant! Nestled in the heart of [Location], we pride ourselves on delivering an unforgettable
+                    dining experience. Our culinary team, curated with the finest chefs, meticulously crafts each dish,
+                    infusing flavors that tantalize the senses and elevate the ordinary into the extraordinary.
+                </p>
+            </div>
+            <div>
+                <img src="{% static '/img/food2.jpg' %}" alt="">
+            </div>
+        </div>
+
+        <div class="d-flex justify-content-between" id="infot">
+            <div>
+                <h1>
+                    A Symphony of Ambiance and Service
+                </h1>
+                <p>
+                    Step into an ambiance that seamlessly blends sophistication with warmth, inviting you to savor not
+                    just the food but the entire dining experience. Our restaurant exudes an ambiance that speaks of
+                    refined elegance, whether you're seeking a cozy dinner for two or hosting a celebration with friends
+                    and family.
+                </p>
+            </div>
+            <div>
+                <img src="{% static '/img/food3.jpg' %}" alt="">
+            </div>
+            <div>
+                <h1>
+                    Beyond Dining—A Destination for Unparalleled Hospitality
+                </h1>
+                <p>
+                    At our restaurant, we don't just serve meals; we curate moments. Our commitment to hospitality
+                    transcends the mere act of dining. We aspire to be more than just a restaurant; we aim to be a
+                    destination where patrons return for the immersive experience we offer.
+                </p>
+            </div>
+        </div>
+
+    </div>
+</section>
+{% endblock %}

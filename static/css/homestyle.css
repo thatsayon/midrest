@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Merriweather:wght@700&display=swap');
+.headdiv {
+    background-image: url('../img/bg.jpg');
+    background-color: #cccccc;
+    height: 70vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.headdiv div {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+}
+
+.headdiv div h2 {
+    font-family: 'Merriweather', serif;
+    font-size: 4.5rem;
+}
+
+.headdiv div p {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 2rem;
+}
+
+.headdiv div button {
+    padding: .8rem 1.3rem;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#infot div {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#infot div img {
+    width: 80%;
+    height: 100%;
+}
+
+#infot div h1, p{
+    width: 80%;
+    text-align: center;
+    word-break: break-all;
+}
